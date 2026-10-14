@@ -53,3 +53,7 @@ Direct analysis of the full UCI workbook (541,909 source rows) identified **£10
 ## Interactive dashboard preview
 
 Open [`dashboard/index.html`](dashboard/index.html) in a browser to interactively filter the independently verified monthly and country aggregates. This is HTML, **not** a Power BI `.pbix`. The original workbook benchmark reconciles to £10,642,110.80 when summing both monthly and country results. Full standard-import end-to-end pipeline validation and creation of the native Power BI report remain outstanding.
+
+## Validation update (2026-10-14)
+
+The original Excel-workbook benchmark was reconciled across the complete 13-month and 38-country aggregate CSV files: **£10,642,110.80** in both. Run `python src/verify_published_aggregates.py` to check the committed reports. The standalone interactive HTML dashboard is available in `dashboard/index.html`. This is **not** a native Power BI `.pbix`; the Power BI Desktop report remains a separate deliverable. The full CSV conversion pipeline remains to be reconciled independently.
