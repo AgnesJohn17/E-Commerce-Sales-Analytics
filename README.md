@@ -2,7 +2,7 @@
 
 An end-to-end, reproducible portfolio project exploring revenue, products, and customer purchasing patterns using **Python, SQL, and Power BI**.
 
-**Status:** In development. Python analysis and SQL query templates are being implemented. A Power BI report is planned, not yet published.
+**Status:** In development. Original Excel dataset analyzed; verified aggregate findings and SVG charts have been committed. The CSV-based pipeline still needs end-to-end reconciliation, and an interactive Power BI report is planned, not yet published.
 
 ## Project goals
 - Validate and clean transaction-level retail data.
@@ -32,9 +32,20 @@ The `sql/` folder contains a PostgreSQL table definition and KPI queries. Import
 ## Roadmap
 - [x] Define scope and reproducible project structure
 - [ ] Validate end-to-end execution with the public dataset
-- [ ] Complete exploratory visualizations and business narrative
+- [x] Publish initial verified aggregate charts and business narrative
+- [ ] Validate charts and CSV pipeline end-to-end against original workbook
 - [ ] Create interactive Power BI `.pbix` report
-- [ ] Publish screenshots, findings, and resume-ready quantitative results
+- [x] Publish benchmark KPIs and initial business findings
+- [ ] Publish actual dashboard screenshots and resume-ready implementation outcomes
 
 ## Limitations
 The public Online Retail dataset is historical and not representative of modern e-commerce behavior. Customer IDs are missing on some rows. Reporting rules and all achieved project results will be documented only after actually running the pipeline.
+
+## Verified historical findings
+
+Direct analysis of the full UCI workbook (541,909 source rows) identified **£10,642,110.80 in gross positive sales**, **19,960 distinct sales orders**, and **4,338 identified customers**. November 2011 was the highest gross-sales month (£1,503,866.78). **The standard CSV-import pipeline has not yet been reconciled against the direct-workbook benchmark.**
+
+- [Detailed calculations and limitations](docs/verified_findings.md)
+- [Business recommendations](docs/business_insights.md)
+- [Monthly sales chart](reports/charts/monthly_sales.svg)
+- [Country comparison](reports/charts/country_sales.svg)
