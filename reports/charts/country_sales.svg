@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="35" y="39" font-family="Arial" font-size="24" font-weight="bold" fill="#172033">Top 10 countries by gross positive sales (GBP)</text>
+<text x="35" y="91" font-family="Arial" font-size="14" fill="#233044">United Kingdom</text>
+<rect x="220" y="75" height="22" width="557.7" rx="3" fill="#3575b9"/>
+<text x="785.7" y="92" font-family="Arial" font-size="13" fill="#172033">£9.00M</text>
+<text x="35" y="129" font-family="Arial" font-size="14" fill="#233044">Netherlands</text>
+<rect x="220" y="113" height="22" width="17.7" rx="3" fill="#3575b9"/>
+<text x="245.7" y="130" font-family="Arial" font-size="13" fill="#172033">£0.29M</text>
+<text x="35" y="167" font-family="Arial" font-size="14" fill="#233044">EIRE</text>
+<rect x="220" y="151" height="22" width="17.5" rx="3" fill="#3575b9"/>
+<text x="245.5" y="168" font-family="Arial" font-size="13" fill="#172033">£0.28M</text>
+<text x="35" y="205" font-family="Arial" font-size="14" fill="#233044">Germany</text>
+<rect x="220" y="189" height="22" width="14.2" rx="3" fill="#3575b9"/>
+<text x="242.2" y="206" font-family="Arial" font-size="13" fill="#172033">£0.23M</text>
+<text x="35" y="243" font-family="Arial" font-size="14" fill="#233044">France</text>
+<rect x="220" y="227" height="22" width="13.0" rx="3" fill="#3575b9"/>
+<text x="241.0" y="244" font-family="Arial" font-size="13" fill="#172033">£0.21M</text>
+<text x="35" y="281" font-family="Arial" font-size="14" fill="#233044">Australia</text>
+<rect x="220" y="265" height="22" width="8.6" rx="3" fill="#3575b9"/>
+<text x="236.6" y="282" font-family="Arial" font-size="13" fill="#172033">£0.14M</text>
+<text x="35" y="319" font-family="Arial" font-size="14" fill="#233044">Spain</text>
+<rect x="220" y="303" height="22" width="3.8" rx="3" fill="#3575b9"/>
+<text x="231.8" y="320" font-family="Arial" font-size="13" fill="#172033">£0.06M</text>
+<text x="35" y="357" font-family="Arial" font-size="14" fill="#233044">Switzerland</text>
+<rect x="220" y="341" height="22" width="3.5" rx="3" fill="#3575b9"/>
+<text x="231.5" y="358" font-family="Arial" font-size="13" fill="#172033">£0.06M</text>
+<text x="35" y="395" font-family="Arial" font-size="14" fill="#233044">Belgium</text>
+<rect x="220" y="379" height="22" width="2.6" rx="3" fill="#3575b9"/>
+<text x="230.6" y="396" font-family="Arial" font-size="13" fill="#172033">£0.04M</text>
+<text x="35" y="433" font-family="Arial" font-size="14" fill="#233044">Sweden</text>
+<rect x="220" y="417" height="22" width="2.4" rx="3" fill="#3575b9"/>
+<text x="230.4" y="434" font-family="Arial" font-size="13" fill="#172033">£0.04M</text>
+</svg>
