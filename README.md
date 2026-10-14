@@ -49,3 +49,7 @@ Direct analysis of the full UCI workbook (541,909 source rows) identified **£10
 - [Business recommendations](docs/business_insights.md)
 - [Monthly sales chart](reports/charts/monthly_sales.svg)
 - [Country comparison](reports/charts/country_sales.svg)
+
+## Interactive dashboard preview
+
+Open [`dashboard/index.html`](dashboard/index.html) in a browser to interactively filter the independently verified monthly and country aggregates. This is HTML, **not** a Power BI `.pbix`. The original workbook benchmark reconciles to £10,642,110.80 when summing both monthly and country results. Full standard-import end-to-end pipeline validation and creation of the native Power BI report remain outstanding.
