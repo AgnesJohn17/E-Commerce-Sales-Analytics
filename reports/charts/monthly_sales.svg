@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="594" viewBox="0 0 960 594">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="35" y="39" font-family="Arial" font-size="24" font-weight="bold" fill="#172033">Monthly gross positive sales (GBP)</text>
+<text x="35" y="91" font-family="Arial" font-size="14" fill="#233044">2010-12</text>
+<rect x="220" y="75" height="22" width="292.6" rx="3" fill="#3575b9"/>
+<text x="520.6" y="92" font-family="Arial" font-size="13" fill="#172033">£0.82M</text>
+<text x="35" y="129" font-family="Arial" font-size="14" fill="#233044">2011-01</text>
+<rect x="220" y="113" height="22" width="245.7" rx="3" fill="#3575b9"/>
+<text x="473.7" y="130" font-family="Arial" font-size="13" fill="#172033">£0.69M</text>
+<text x="35" y="167" font-family="Arial" font-size="14" fill="#233044">2011-02</text>
+<rect x="220" y="151" height="22" width="186.2" rx="3" fill="#3575b9"/>
+<text x="414.2" y="168" font-family="Arial" font-size="13" fill="#172033">£0.52M</text>
+<text x="35" y="205" font-family="Arial" font-size="14" fill="#233044">2011-03</text>
+<rect x="220" y="189" height="22" width="255.2" rx="3" fill="#3575b9"/>
+<text x="483.2" y="206" font-family="Arial" font-size="13" fill="#172033">£0.72M</text>
+<text x="35" y="243" font-family="Arial" font-size="14" fill="#233044">2011-04</text>
+<rect x="220" y="227" height="22" width="191.3" rx="3" fill="#3575b9"/>
+<text x="419.3" y="244" font-family="Arial" font-size="13" fill="#172033">£0.54M</text>
+<text x="35" y="281" font-family="Arial" font-size="14" fill="#233044">2011-05</text>
+<rect x="220" y="265" height="22" width="274.1" rx="3" fill="#3575b9"/>
+<text x="502.1" y="282" font-family="Arial" font-size="13" fill="#172033">£0.77M</text>
+<text x="35" y="319" font-family="Arial" font-size="14" fill="#233044">2011-06</text>
+<rect x="220" y="303" height="22" width="270.9" rx="3" fill="#3575b9"/>
+<text x="498.9" y="320" font-family="Arial" font-size="13" fill="#172033">£0.76M</text>
+<text x="35" y="357" font-family="Arial" font-size="14" fill="#233044">2011-07</text>
+<rect x="220" y="341" height="22" width="255.8" rx="3" fill="#3575b9"/>
+<text x="483.8" y="358" font-family="Arial" font-size="13" fill="#172033">£0.72M</text>
+<text x="35" y="395" font-family="Arial" font-size="14" fill="#233044">2011-08</text>
+<rect x="220" y="379" height="22" width="270.0" rx="3" fill="#3575b9"/>
+<text x="498.0" y="396" font-family="Arial" font-size="13" fill="#172033">£0.76M</text>
+<text x="35" y="433" font-family="Arial" font-size="14" fill="#233044">2011-09</text>
+<rect x="220" y="417" height="22" width="376.4" rx="3" fill="#3575b9"/>
+<text x="604.4" y="434" font-family="Arial" font-size="13" fill="#172033">£1.06M</text>
+<text x="35" y="471" font-family="Arial" font-size="14" fill="#233044">2011-10</text>
+<rect x="220" y="455" height="22" width="410.1" rx="3" fill="#3575b9"/>
+<text x="638.1" y="472" font-family="Arial" font-size="13" fill="#172033">£1.15M</text>
+<text x="35" y="509" font-family="Arial" font-size="14" fill="#233044">2011-11</text>
+<rect x="220" y="493" height="22" width="535.8" rx="3" fill="#3575b9"/>
+<text x="763.8" y="510" font-family="Arial" font-size="13" fill="#172033">£1.50M</text>
+<text x="35" y="547" font-family="Arial" font-size="14" fill="#233044">2011-12</text>
+<rect x="220" y="531" height="22" width="227.2" rx="3" fill="#3575b9"/>
+<text x="455.2" y="548" font-family="Arial" font-size="13" fill="#172033">£0.64M</text>
+</svg>
