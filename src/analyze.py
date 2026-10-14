@@ -1,6 +1,6 @@
 """Reproducible online retail KPI pipeline.
 
-Run: python src/analyze.py --input data/online_retail.csv --output outputs
+Run: python src/analyze.py --input 'Online Retail.xlsx' --output outputs
 Sales metrics exclude negative quantities, invalid prices and cancellation invoices.
 """
 import argparse
@@ -64,7 +64,18 @@ def main():
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--output", default=Path("outputs"), type=Path)
     args = parser.parse_args()
-    data = pd.read_csv(args.input, dtype={"InvoiceNo": "string", "StockCode": "string", "CustomerID": "string"})
+    if args.input.suffix.lower() == ".xlsx":
+        # Load original workbook directly: avoid partially converted intermediate CSV files.
+        from openpyxl import load_workbook
+        book = load_workbook(args.input, read_only=True, data_only=True)
+        try:
+            rows = book.active.values
+            columns = next(rows)
+            data = pd.DataFrame(rows, columns=columns)
+        finally:
+            book.close()
+    else:
+        data = pd.read_csv(args.input, dtype={"InvoiceNo": "string", "StockCode": "string", "CustomerID": "string"})
     sales, monthly, products, countries, customers, summary = analyze(data)
     args.output.mkdir(parents=True, exist_ok=True)
     for name, df in [("cleaned_sales", sales), ("monthly_sales", monthly), ("top_products", products),
